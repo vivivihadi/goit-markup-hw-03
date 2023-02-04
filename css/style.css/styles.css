@@ -25,11 +25,15 @@ h1,h2,h3,p {
 .nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
-
+.btv {
+  gap: 40px;
+}
 .menu {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .logo {
   margin-right: 76px;
@@ -50,9 +54,7 @@ h1,h2,h3,p {
   letter-spacing: 0.03em;
   color: #2e2f42;
 }
-.menu-item:not(:last-child) {
-  margin-right: 40px;
-}
+
 .menu-list {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -73,7 +75,6 @@ h1,h2,h3,p {
   justify-content: space-between;
 }
 .mail {
-  margin-left: 240px;
   margin-right: 40px;
 }
 body {
@@ -99,10 +100,15 @@ body {
 .solution-style {
   padding-right: auto;
   padding-left: auto;
-}
-.weare {
   background: #2E2F42;
   padding-top: 188px;
+  padding-bottom: 188px;
+}
+.weare {
+  padding-right: auto;
+  padding-left: auto;
+  background: #2E2F42;
+  
   padding-bottom: 188px;
 }
 .button-tx {
@@ -132,10 +138,9 @@ gap: 10px;
 }
 .advantages {
   display: flex;
+  gap: 24px;
   }
-.advantages-item:not(:last-child) {
- margin-right: 24px;
-  }
+
 .advantages-h {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -256,9 +261,12 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
   text-align: center;
   color: #434455;
+}
+.team-s {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .sidebar-link {
   font-weight: 600;
@@ -341,9 +349,14 @@ color: #4D5AE5;
   padding-right: 24px;
   
 }
+.portt {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+}
 .photo-box {
   border: 1px solid #E7E9FC;
-  margin-bottom: 48px;
+  ;
 }
 .portfolio-h {
   font-family: "Roboto", sans-serif;
@@ -355,9 +368,7 @@ color: #4D5AE5;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: 32px;
   margin-bottom: 8px;
-  margin-left: 16px;
 }
 .portfolio-p {
   font-family: "Roboto", sans-serif;
@@ -369,15 +380,13 @@ color: #4D5AE5;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 16px;
-  margin-bottom: 32px;
+  
 }
 .bottom-style {
   background: #2E2F42;
-  height: 310px;
 }
 .last-logo {
-  margin-bottom: 16px;
+  row-gap: 16px;
 }
 .logo-studio-last {
   font-family: "Raleway", sans-serif;
@@ -396,11 +405,14 @@ color: #4D5AE5;
   width: 300px;
   height: 72px;
   color: #E7E9FC;
+  margin-top: 16px;
 }
 .galery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  row-gap: 48px;
+  column-gap: 15px;
+  
 }
 .end-st {
   padding-top: 100px;
