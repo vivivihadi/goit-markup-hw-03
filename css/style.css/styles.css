@@ -8,20 +8,21 @@
 ul,
 ol {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 } 
 h1,h2,h3,p {
-  margin: 0;
+  margin: 0px;
 }
 .container {
   width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
 }
 
-.container-s {
-  width: 1188px;
-  
-}
+
 .header-st {
   padding-top: 24px;
   padding-bottom: 24px;
