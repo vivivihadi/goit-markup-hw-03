@@ -17,6 +17,11 @@ h1,h2,h3,p {
   margin-left: auto;
   margin-right: auto;
 }
+
+.container-s {
+  width: 1188px;
+  
+}
 .header-st {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -25,7 +30,7 @@ h1,h2,h3,p {
 .nav {
   display: flex;
   align-items: center;
-  margin-right: auto;
+  
 }
 .btv {
   gap: 40px;
@@ -71,17 +76,14 @@ h1,h2,h3,p {
   color: #434455;
 }
 .contacts-style {
-  justify-content: space-between;
+  margin-left: auto;
 }
-.mail {
-  margin-right: 40px;
-}
+
 body {
   background-color: var(--primary-white-color);
 }
 .box {
   width: 494px;
-  height: 120px;
   align-items: center;
 }
 .servise {
@@ -136,10 +138,11 @@ gap: 10px;
 }
 .advantages {
   display: flex;
-  height: 264px;
   gap: 24px;
   }
-
+.p-style {
+  width: 264px;
+}
 .advantages-h {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -155,7 +158,6 @@ gap: 10px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  height: 264px;
   color: #434455;
 }
 .about-style {
@@ -164,6 +166,10 @@ gap: 10px;
 }
 .us-about {
   padding-bottom: 120px;
+}
+.abs {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .about-us-photo {
   width: 360px;
@@ -241,6 +247,8 @@ address {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
   align-items: center;
 }
 .team-h {
@@ -266,6 +274,7 @@ address {
 .team-s {
   padding-top: 32px;
   padding-bottom: 32px;
+  
 }
 .sidebar-link {
   font-weight: 600;
@@ -328,16 +337,15 @@ color: #4D5AE5;
 .botton-list {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 59px;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
-
-}
 .port-botton {
   padding-top: 96px;
-  padding-bottom: 59px;
+  padding-bottom: 120px;
+  margin-right: auto;
+  margin-left: auto;
   align-items: center;
 }
 .button-style {
@@ -353,7 +361,7 @@ color: #4D5AE5;
 .portt {
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 32px;
+  padding-left: 16px;
 }
 .photo-box {
   border: 1px solid #E7E9FC;
